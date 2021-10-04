@@ -1,0 +1,131 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='1419.2001' height='523' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .COVERBOX {fill:white;stroke:black;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<rect class='COVERBOX' x='5' y='5' width='1409.2001' height='513'></rect>
+<g transform='translate(20,20)'>
+    <g transform='translate(1170.4,96.6)'>
+    <rect class='BOX' x='0' y='-48.3' width='211.20001' height='89.7'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 7</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: Limit</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: groupedon_recepie</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 19</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 3</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.011 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='215.20001' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-255.20001' y='-48.3' width='211.20001' height='89.7'></rect>
+<text class='TEXT' x='-246.40001' y='-34.5'>id: 6</text>
+<text class='TEXT' x='-246.40001' y='-20.699999'>kind: OrderBy</text>
+<text class='TEXT' x='-246.40001' y='-6.8999977'>name: groupedon_recepie</text>
+<text class='TEXT' x='-246.40001' y='6.9000015'>rows: 187</text>
+<text class='TEXT' x='-246.40001' y='20.7'>cols: 3</text>
+<text class='TEXT' x='-246.40001' y='34.500004'>cpu : 0.175 ms</text>
+<circle class='KONTAKT' cx='-259.2' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-510.40002' y='-48.3' width='211.20001' height='89.7'></rect>
+<text class='TEXT' x='-501.60004' y='-34.5'>id: 5</text>
+<text class='TEXT' x='-501.60004' y='-20.699999'>kind: Select</text>
+<text class='TEXT' x='-501.60004' y='-6.8999977'>name: groupedon_recepie</text>
+<text class='TEXT' x='-501.60004' y='6.9000015'>rows: 187</text>
+<text class='TEXT' x='-501.60004' y='20.7'>cols: 3</text>
+<text class='TEXT' x='-501.60004' y='34.500004'>cpu : 0.091 ms</text>
+<circle class='KONTAKT' cx='-514.4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-295.2' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-765.60004' y='-48.3' width='211.20001' height='89.7'></rect>
+<text class='TEXT' x='-756.80005' y='-34.5'>id: 4</text>
+<text class='TEXT' x='-756.80005' y='-20.699999'>kind: Join</text>
+<text class='TEXT' x='-756.80005' y='-6.8999977'>name: groupedon_recepie</text>
+<text class='TEXT' x='-756.80005' y='6.9000015'>rows: 187</text>
+<text class='TEXT' x='-756.80005' y='20.7'>cols: 9</text>
+<text class='TEXT' x='-756.80005' y='34.500004'>cpu : 2.167 ms</text>
+<circle class='KONTAKT' cx='-769.60004' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-550.4' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-950.4' y='-96.6' width='140.8' height='89.7'></rect>
+<text class='TEXT' x='-941.60004' y='-82.799995'>id: 3</text>
+<text class='TEXT' x='-941.60004' y='-69'>kind: GroupBy</text>
+<text class='TEXT' x='-941.60004' y='-55.199997'>name: groupedon</text>
+<text class='TEXT' x='-941.60004' y='-41.399998'>rows: 187</text>
+<text class='TEXT' x='-941.60004' y='-27.599998'>cols: 2</text>
+<text class='TEXT' x='-941.60004' y='-13.799995'>cpu : 1.965 ms</text>
+<circle class='KONTAKT' cx='-954.4' cy='-48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-805.60004' cy='-48.3' r='4'></circle>
+
+<rect class='BOX' x='-1152.8' y='-96.6' width='158.40001' height='89.7'></rect>
+<text class='TEXT' x='-1144' y='-82.799995'>id: 2</text>
+<text class='TEXT' x='-1144' y='-69'>kind: FromCSV</text>
+<text class='TEXT' x='-1144' y='-55.199997'>name: recepiestep</text>
+<text class='TEXT' x='-1144' y='-41.399998'>rows: 1501</text>
+<text class='TEXT' x='-1144' y='-27.599998'>cols: 5</text>
+<text class='TEXT' x='-1144' y='-13.799995'>cpu : 1.582 ms</text>
+<circle class='KONTAKT' cx='-1156.8' cy='-48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-990.4' cy='-48.3' r='4'></circle>
+
+<rect class='BOX' x='-941.60004' y='0' width='132' height='89.7'></rect>
+<text class='TEXT' x='-932.80005' y='13.8'>id: 1</text>
+<text class='TEXT' x='-932.80005' y='27.6'>kind: FromCSV</text>
+<text class='TEXT' x='-932.80005' y='41.4'>name: recepie</text>
+<text class='TEXT' x='-932.80005' y='55.2'>rows: 188</text>
+<text class='TEXT' x='-932.80005' y='69'>cols: 7</text>
+<text class='TEXT' x='-932.80005' y='82.8'>cpu : 0.955 ms</text>
+<circle class='KONTAKT' cx='-945.60004' cy='48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-805.60004' cy='48.3' r='4'></circle>
+<line class='K2K' x1='-990.4' y1='-48.3' x2='-954.4' y2='-48.3' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-805.60004' y1='-48.3' x2='-769.60004' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-805.60004' y1='48.3' x2='-769.60004' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-40' y1='0' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-295.2' y1='0' x2='-259.2' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-550.4' y1='0' x2='-514.4' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(20,223.2)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 7. LIMIT 0,20</text>
+<text class='TEXT' x='0' y='27.6'>id: 6. ORDER BY count desc</text>
+<text class='TEXT' x='0' y='41.4'>id: 5. SELECT groupedon.recid, recepie.recname, groupedon.COUNT(*)</text>
+<text class='TEXT' x='0' y='55.2'>id: 4. ON groupedon.recid = recepie.recid </text>
+<text class='TEXT' x='0' y='69'>id: 3. SELCET recid,COUNT(*) GROUP BY recid</text>
+<text class='TEXT' x='0' y='82.8'>id: 2. FROM csv 'recepiestep.csv'</text>
+<text class='TEXT' x='0' y='96.6'>id: 1. FROM csv 'recepies.csv'</text>
+    </g>
+</g>
+<g transform='translate(20,343.6)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>(recepies with most ingredients)</text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'>SELECT groupedon.recid,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'>    recepies.recname,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='41.4'>    groupedon.count</text>
+<text class='TEXT' xml:space='preserve' x='0' y='55.2'>FROM</text>
+<text class='TEXT' xml:space='preserve' x='0' y='69'>  (SELECT recid,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='82.8'>          Count(*) AS COUNT</text>
+<text class='TEXT' xml:space='preserve' x='0' y='96.6'>   FROM recepistep GROUP  BY recid)</text>
+<text class='TEXT' xml:space='preserve' x='0' y='110.4'>   AS groupedon,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='124.200005'>   recepies</text>
+<text class='TEXT' xml:space='preserve' x='0' y='138'>WHERE recepies.recid = groupedon.recid</text>
+<text class='TEXT' xml:space='preserve' x='0' y='151.8'>  ORDER  BY groupedon.count DESC</text>
+<text class='TEXT' xml:space='preserve' x='0' y='165.6'>  LIMIT 0, 20</text>
+    </g>
+</g>
+</svg>
+

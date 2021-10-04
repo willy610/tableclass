@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"subcommand": "build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "build",
+			"label": "Rust: cargo build - all"
+		},
+		{
+			"label": "Rust: cargo build - binrecepie",
+			"type": "shell",
+			"command": "cargo",
+			"args": [
+				"build",
+				"--bin",
+				"binrecepie"
+			],
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Rust: cargo build - binchrisdate",
+			"type": "shell",
+			"command": "cargo",
+			"args": [
+				"build",
+				"--bin",
+				"binchrisdate"
+			],
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Rust: cargo build - bindemo",
+			"type": "shell",
+			"command": "cargo",
+			"args": [
+				"build",
+				"--bin",
+				"bindemo"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

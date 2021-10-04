@@ -1,0 +1,28 @@
+[package]
+name = "tableclass"
+version = "0.1.0"
+edition = "2018"
+description = "An relational algebra on tables"
+keywords = ["Relational algebra", "Relational","Algebra","SQL","Explain SQL","CSV","Relational algebra on CSV","SQL Workbench"]
+
+
+[dependencies]
+csv="1.1"
+cpu-time = "1.0.0"
+floating-duration="0.1.2"
+
+[lib]
+name = "tableclass"
+path = "src/mod.rs"
+
+[[bin]]
+name="binrecepie"
+path="src/bins/binrecepie/main.rs"
+
+[[bin]]
+name="binchrisdate"
+path="src/bins/binchrisdate/main.rs"
+
+[[bin]]
+name="bindemo"
+path="src/bins/bindemo/main.rs"

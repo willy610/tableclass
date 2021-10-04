@@ -1,0 +1,92 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='565.60004' height='495.40002' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .COVERBOX {fill:white;stroke:black;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<rect class='COVERBOX' x='5' y='5' width='555.60004' height='485.40002'></rect>
+<g transform='translate(20,20)'>
+    <g transform='translate(352,48.3)'>
+    <rect class='BOX' x='0' y='-48.3' width='176' height='89.7'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 7</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: WithRecursive</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: Ledger</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 4</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 4</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.758 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='180' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-158.40001' y='-48.3' width='114.4' height='89.7'></rect>
+<text class='TEXT' x='-149.6' y='-34.5'>id: 2</text>
+<text class='TEXT' x='-149.6' y='-20.699999'>kind: Where</text>
+<text class='TEXT' x='-149.6' y='-6.8999977'>name: Ledger</text>
+<text class='TEXT' x='-149.6' y='6.9000015'>rows: 1</text>
+<text class='TEXT' x='-149.6' y='20.7'>cols: 4</text>
+<text class='TEXT' x='-149.6' y='34.500004'>cpu : 0.1 ms</text>
+<circle class='KONTAKT' cx='-162.40001' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-334.4' y='-48.3' width='132' height='89.7'></rect>
+<text class='TEXT' x='-325.6' y='-34.5'>id: 1</text>
+<text class='TEXT' x='-325.6' y='-20.699999'>kind: FromCSV</text>
+<text class='TEXT' x='-325.6' y='-6.8999977'>name: Ledger</text>
+<text class='TEXT' x='-325.6' y='6.9000015'>rows: 199</text>
+<text class='TEXT' x='-325.6' y='20.7'>cols: 4</text>
+<text class='TEXT' x='-325.6' y='34.500004'>cpu : 0.287 ms</text>
+<circle class='KONTAKT' cx='-338.4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-198.40001' cy='0' r='4'></circle>
+<line class='K2K' x1='-40' y1='0' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-198.40001' y1='0' x2='-162.40001' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(20,126.6)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 7. WHERE  subben.person = supern.bossx</text>
+<text class='TEXT' x='0' y='27.6'>id: 2. WHERE Person = 'Davis'</text>
+<text class='TEXT' x='0' y='41.4'>id: 1. FROM csv 'Ledger.csv'</text>
+    </g>
+</g>
+<g transform='translate(20,191.8)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>WITH recursive </text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'>supern (personx,bossx,weightx,agex) </text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'>AS </text>
+<text class='TEXT' xml:space='preserve' x='0' y='41.4'>  ( </text>
+<text class='TEXT' xml:space='preserve' x='0' y='55.2'>         SELECT person, </text>
+<text class='TEXT' xml:space='preserve' x='0' y='69'>                boss, </text>
+<text class='TEXT' xml:space='preserve' x='0' y='82.8'>                weight, </text>
+<text class='TEXT' xml:space='preserve' x='0' y='96.6'>                age </text>
+<text class='TEXT' xml:space='preserve' x='0' y='110.4'>         FROM   persons </text>
+<text class='TEXT' xml:space='preserve' x='0' y='124.200005'>         WHERE  Person='Davis' </text>
+<text class='TEXT' xml:space='preserve' x='0' y='138'>         UNION ALL </text>
+<text class='TEXT' xml:space='preserve' x='0' y='151.8'>         SELECT person, </text>
+<text class='TEXT' xml:space='preserve' x='0' y='165.6'>                boss, </text>
+<text class='TEXT' xml:space='preserve' x='0' y='179.40001'>                weight, </text>
+<text class='TEXT' xml:space='preserve' x='0' y='193.2'>                age </text>
+<text class='TEXT' xml:space='preserve' x='0' y='207'>         FROM   persons AS subben, </text>
+<text class='TEXT' xml:space='preserve' x='0' y='220.8'>                supern </text>
+<text class='TEXT' xml:space='preserve' x='0' y='234.6'>         WHERE  subben.person = supern.bossx ) </text>
+<text class='TEXT' xml:space='preserve' x='0' y='248.40001'>  SELECT * </text>
+<text class='TEXT' xml:space='preserve' x='0' y='262.2'>  FROM   supern</text>
+<text class='TEXT' xml:space='preserve' x='0' y='276'></text>
+<text class='TEXT' xml:space='preserve' x='0' y='289.80002'></text>
+    </g>
+</g>
+</svg>
+

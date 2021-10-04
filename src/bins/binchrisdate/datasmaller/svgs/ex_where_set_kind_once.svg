@@ -1,0 +1,98 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='731.60004' height='406.4' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<g transform='translate(10,10)'>
+    <g transform='translate(545.60004,96.6)'>
+    <rect class='BOX' x='0' y='-48.3' width='158.40001' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 5</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: WhereDepSub</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: part</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 0</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 5</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.003 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='162.40001' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-176' y='-96.6' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-167.2' y='-82.799995'>id: 3</text>
+<text class='TEXT' x='-167.2' y='-69'>kind: Select</text>
+<text class='TEXT' x='-167.2' y='-55.199997'>name: part</text>
+<text class='TEXT' x='-167.2' y='-41.399998'>rows: 2</text>
+<text class='TEXT' x='-167.2' y='-27.599998'>cols: 1</text>
+<text class='TEXT' x='-167.2' y='-13.799995'>cpu : 0.003 ms</text>
+<circle class='KONTAKT' cx='-180' cy='-48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='-48.3' r='4'></circle>
+
+<rect class='BOX' x='-352' y='-96.6' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-343.2' y='-82.799995'>id: 2</text>
+<text class='TEXT' x='-343.2' y='-69'>kind: Where</text>
+<text class='TEXT' x='-343.2' y='-55.199997'>name: part</text>
+<text class='TEXT' x='-343.2' y='-41.399998'>rows: 2</text>
+<text class='TEXT' x='-343.2' y='-27.599998'>cols: 5</text>
+<text class='TEXT' x='-343.2' y='-13.799995'>cpu : 0.014 ms</text>
+<circle class='KONTAKT' cx='-356' cy='-48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-216' cy='-48.3' r='4'></circle>
+
+<rect class='BOX' x='-528' y='-96.6' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-519.2' y='-82.799995'>id: 1</text>
+<text class='TEXT' x='-519.2' y='-69'>kind: FromCSV</text>
+<text class='TEXT' x='-519.2' y='-55.199997'>name: part</text>
+<text class='TEXT' x='-519.2' y='-41.399998'>rows: 6</text>
+<text class='TEXT' x='-519.2' y='-27.599998'>cols: 5</text>
+<text class='TEXT' x='-519.2' y='-13.799995'>cpu : 0.122 ms</text>
+<circle class='KONTAKT' cx='-532' cy='-48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-392' cy='-48.3' r='4'></circle>
+
+<rect class='BOX' x='-176' y='0' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-167.2' y='13.8'>id: 4</text>
+<text class='TEXT' x='-167.2' y='27.6'>kind: FromCSV</text>
+<text class='TEXT' x='-167.2' y='41.4'>name: part</text>
+<text class='TEXT' x='-167.2' y='55.2'>rows: 6</text>
+<text class='TEXT' x='-167.2' y='69'>cols: 5</text>
+<text class='TEXT' x='-167.2' y='82.8'>cpu : 0.058 ms</text>
+<circle class='KONTAKT' cx='-180' cy='48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='48.3' r='4'></circle>
+<line class='K2K' x1='-216' y1='-48.3' x2='-180' y2='-48.3' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-392' y1='-48.3' x2='-356' y2='-48.3' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-40' y1='-48.3' x2='-4' y2='0' marker-end='url(#arrowend)' marker-start='url(#arrowstart)'/>
+<line class='K2K' x1='-40' y1='48.3' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(10,213.2)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 5. WHERE PX.weight > ALL</text>
+<text class='TEXT' x='0' y='27.6'>id: 3. SELECT PY.weight</text>
+<text class='TEXT' x='0' y='41.4'>id: 2. SELECT PY.weight FROM P AS PY WHERE PY.COLOR = 'Blue'</text>
+<text class='TEXT' x='0' y='55.2'>id: 1. FROM csv 'part.csv'</text>
+<text class='TEXT' x='0' y='69'>id: 4. FROM csv 'part.csv'</text>
+    </g>
+</g>
+<g transform='translate(10,309.8)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>SELECT *</text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'>    FROM P AS PX</text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'>    WHERE PX.weight > ALL</text>
+<text class='TEXT' xml:space='preserve' x='0' y='41.4'>        (SELECT PY.weight</text>
+<text class='TEXT' xml:space='preserve' x='0' y='55.2'>         FROM P AS PY</text>
+<text class='TEXT' xml:space='preserve' x='0' y='69'>         WHERE PY.COLOR = 'Blue')</text>
+    </g>
+</g>
+</svg>
+

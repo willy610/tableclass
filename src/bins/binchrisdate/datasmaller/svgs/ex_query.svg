@@ -1,0 +1,108 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='828.4' height='544.4' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<g transform='translate(10,10)'>
+    <g transform='translate(668.8,96.6)'>
+    <rect class='BOX' x='0' y='-48.3' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 5</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: OrderBy</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: Finally</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 5</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 5</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.009 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='136' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-176' y='-48.3' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-167.2' y='-34.5'>id: 4</text>
+<text class='TEXT' x='-167.2' y='-20.699999'>kind: GroupBy</text>
+<text class='TEXT' x='-167.2' y='-6.8999977'>name: Finally</text>
+<text class='TEXT' x='-167.2' y='6.9000015'>rows: 5</text>
+<text class='TEXT' x='-167.2' y='20.7'>cols: 5</text>
+<text class='TEXT' x='-167.2' y='34.500004'>cpu : 0.044 ms</text>
+<circle class='KONTAKT' cx='-180' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-440' y='-48.3' width='220' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-431.2' y='-34.5'>id: 3</text>
+<text class='TEXT' x='-431.2' y='-20.699999'>kind: Join</text>
+<text class='TEXT' x='-431.2' y='-6.8999977'>name: parts_supplierpart</text>
+<text class='TEXT' x='-431.2' y='6.9000015'>rows: 12</text>
+<text class='TEXT' x='-431.2' y='20.7'>cols: 8</text>
+<text class='TEXT' x='-431.2' y='34.500004'>cpu : 0.033 ms</text>
+<circle class='KONTAKT' cx='-444' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-216' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-616' y='-96.6' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-607.2' y='-82.799995'>id: 1</text>
+<text class='TEXT' x='-607.2' y='-69'>kind: FromCSV</text>
+<text class='TEXT' x='-607.2' y='-55.199997'>name: parts</text>
+<text class='TEXT' x='-607.2' y='-41.399998'>rows: 6</text>
+<text class='TEXT' x='-607.2' y='-27.599998'>cols: 5</text>
+<text class='TEXT' x='-607.2' y='-13.799995'>cpu : 0.114 ms</text>
+<circle class='KONTAKT' cx='-620' cy='-48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-480' cy='-48.3' r='4'></circle>
+
+<rect class='BOX' x='-651.2' y='0' width='167.2' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-642.4' y='13.8'>id: 2</text>
+<text class='TEXT' x='-642.4' y='27.6'>kind: FromCSV</text>
+<text class='TEXT' x='-642.4' y='41.4'>name: supplierpart</text>
+<text class='TEXT' x='-642.4' y='55.2'>rows: 12</text>
+<text class='TEXT' x='-642.4' y='69'>cols: 3</text>
+<text class='TEXT' x='-642.4' y='82.8'>cpu : 0.061 ms</text>
+<circle class='KONTAKT' cx='-655.2' cy='48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-480' cy='48.3' r='4'></circle>
+<line class='K2K' x1='-480' y1='-48.3' x2='-444' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-480' y1='48.3' x2='-444' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-40' y1='0' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-216' y1='0' x2='-180' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(10,213.2)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 5. order by</text>
+<text class='TEXT' x='0' y='27.6'>id: 4. aggregate</text>
+<text class='TEXT' x='0' y='41.4'>id: 3. join</text>
+<text class='TEXT' x='0' y='55.2'>id: 1. FROM csv 'part.csv'</text>
+<text class='TEXT' x='0' y='69'>id: 2. FROM csv 'supplierpart.csv'</text>
+    </g>
+</g>
+<g transform='translate(10,309.8)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>SELECT p.pno,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'>           p.weight,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'>           p.color,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='41.4'>           Max(sp.qty),</text>
+<text class='TEXT' xml:space='preserve' x='0' y='55.2'>           Sum(sp.qty)</text>
+<text class='TEXT' xml:space='preserve' x='0' y='69'>    FROM   p,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='82.8'>           sp</text>
+<text class='TEXT' xml:space='preserve' x='0' y='96.6'>    WHERE  p.pno = sp.pno</text>
+<text class='TEXT' xml:space='preserve' x='0' y='110.4'>           AND ( p.color = 'Red'</text>
+<text class='TEXT' xml:space='preserve' x='0' y='124.200005'>                  OR p.color = 'Blue' )</text>
+<text class='TEXT' xml:space='preserve' x='0' y='138'>           AND sp.qty > 200</text>
+<text class='TEXT' xml:space='preserve' x='0' y='151.8'>    GROUP  BY p.pno,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='165.6'>              p.weight,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='179.40001'>              p.color</text>
+<text class='TEXT' xml:space='preserve' x='0' y='193.2'>    HAVING Sum(qty) > 350</text>
+<text class='TEXT' xml:space='preserve' x='0' y='207'>    ORDER  BY  Max(sp.qty)</text>
+    </g>
+</g>
+</svg>
+

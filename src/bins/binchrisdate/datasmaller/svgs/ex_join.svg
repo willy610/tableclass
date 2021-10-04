@@ -1,0 +1,84 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='906.4' height='365' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<g transform='translate(10,10)'>
+    <g transform='translate(422.40002,96.6)'>
+    <rect class='BOX' x='0' y='-48.3' width='184.8' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 4</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: Select</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: parts_supplier</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 6</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 2</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.005 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='188.8' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-228.8' y='-48.3' width='184.8' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-220' y='-34.5'>id: 3</text>
+<text class='TEXT' x='-220' y='-20.699999'>kind: Join</text>
+<text class='TEXT' x='-220' y='-6.8999977'>name: parts_supplier</text>
+<text class='TEXT' x='-220' y='6.9000015'>rows: 6</text>
+<text class='TEXT' x='-220' y='20.7'>cols: 9</text>
+<text class='TEXT' x='-220' y='34.500004'>cpu : 0.031 ms</text>
+<circle class='KONTAKT' cx='-232.8' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-404.80002' y='-96.6' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-396.00003' y='-82.799995'>id: 1</text>
+<text class='TEXT' x='-396.00003' y='-69'>kind: FromCSV</text>
+<text class='TEXT' x='-396.00003' y='-55.199997'>name: parts</text>
+<text class='TEXT' x='-396.00003' y='-41.399998'>rows: 6</text>
+<text class='TEXT' x='-396.00003' y='-27.599998'>cols: 5</text>
+<text class='TEXT' x='-396.00003' y='-13.799995'>cpu : 0.148 ms</text>
+<circle class='KONTAKT' cx='-408.80002' cy='-48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-268.80002' cy='-48.3' r='4'></circle>
+
+<rect class='BOX' x='-404.80002' y='0' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-396.00003' y='13.8'>id: 2</text>
+<text class='TEXT' x='-396.00003' y='27.6'>kind: FromCSV</text>
+<text class='TEXT' x='-396.00003' y='41.4'>name: supplier</text>
+<text class='TEXT' x='-396.00003' y='55.2'>rows: 5</text>
+<text class='TEXT' x='-396.00003' y='69'>cols: 4</text>
+<text class='TEXT' x='-396.00003' y='82.8'>cpu : 0.073 ms</text>
+<circle class='KONTAKT' cx='-408.80002' cy='48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-268.80002' cy='48.3' r='4'></circle>
+<line class='K2K' x1='-268.80002' y1='-48.3' x2='-232.8' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-268.80002' y1='48.3' x2='-232.8' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-40' y1='0' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(10,213.2)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 4. SELECT parts.PNO, supplier.SNO</text>
+<text class='TEXT' x='0' y='27.6'>id: 3. ON parts.WEIGHT 'less or equal' supplier.STATUS AND parts.COLOR='Blue' AND supplier.STATUS ='20'</text>
+<text class='TEXT' x='0' y='41.4'>id: 1. FROM csv 'part.csv'</text>
+<text class='TEXT' x='0' y='55.2'>id: 2. FROM csv 'supplier.csv'</text>
+    </g>
+</g>
+<g transform='translate(10,296)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>SELECT parts.PNO,supplier.SNO</text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'>    FROM P JOIN S ON </text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'>        P.WEIGHT LessOrEqual S.STATUS</text>
+<text class='TEXT' xml:space='preserve' x='0' y='41.4'>        AND P.COLOR = 'Blue' and S.STATUS = 20</text>
+    </g>
+</g>
+</svg>
+

@@ -1,0 +1,87 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='768' height='274.6' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .COVERBOX {fill:white;stroke:black;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<rect class='COVERBOX' x='5' y='5' width='758' height='264.6'></rect>
+<g transform='translate(20,20)'>
+    <g transform='translate(589.60004,48.3)'>
+    <rect class='BOX' x='0' y='-48.3' width='140.8' height='89.7'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 4</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: Limit</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: groupedon</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 9</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 2</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.004 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='144.8' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-184.8' y='-48.3' width='140.8' height='89.7'></rect>
+<text class='TEXT' x='-176' y='-34.5'>id: 3</text>
+<text class='TEXT' x='-176' y='-20.699999'>kind: OrderBy</text>
+<text class='TEXT' x='-176' y='-6.8999977'>name: groupedon</text>
+<text class='TEXT' x='-176' y='6.9000015'>rows: 187</text>
+<text class='TEXT' x='-176' y='20.7'>cols: 2</text>
+<text class='TEXT' x='-176' y='34.500004'>cpu : 0.084 ms</text>
+<circle class='KONTAKT' cx='-188.8' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-369.6' y='-48.3' width='140.8' height='89.7'></rect>
+<text class='TEXT' x='-360.80002' y='-34.5'>id: 2</text>
+<text class='TEXT' x='-360.80002' y='-20.699999'>kind: GroupBy</text>
+<text class='TEXT' x='-360.80002' y='-6.8999977'>name: groupedon</text>
+<text class='TEXT' x='-360.80002' y='6.9000015'>rows: 187</text>
+<text class='TEXT' x='-360.80002' y='20.7'>cols: 2</text>
+<text class='TEXT' x='-360.80002' y='34.500004'>cpu : 2.056 ms</text>
+<circle class='KONTAKT' cx='-373.6' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-224.8' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-572' y='-48.3' width='158.40001' height='89.7'></rect>
+<text class='TEXT' x='-563.2' y='-34.5'>id: 1</text>
+<text class='TEXT' x='-563.2' y='-20.699999'>kind: FromCSV</text>
+<text class='TEXT' x='-563.2' y='-6.8999977'>name: recepiestep</text>
+<text class='TEXT' x='-563.2' y='6.9000015'>rows: 1501</text>
+<text class='TEXT' x='-563.2' y='20.7'>cols: 5</text>
+<text class='TEXT' x='-563.2' y='34.500004'>cpu : 2.23 ms</text>
+<circle class='KONTAKT' cx='-576' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-409.6' cy='0' r='4'></circle>
+<line class='K2K' x1='-40' y1='0' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-224.8' y1='0' x2='-188.8' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-409.6' y1='0' x2='-373.6' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(20,126.6)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 4. LIMIT 10</text>
+<text class='TEXT' x='0' y='27.6'>id: 3. ORDER BY Sum(minutes) DESC</text>
+<text class='TEXT' x='0' y='41.4'>id: 2. GROUP BY recid</text>
+<text class='TEXT' x='0' y='55.2'>id: 1. FROM csv 'recepiestep.csv'</text>
+    </g>
+</g>
+<g transform='translate(20,205.6)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>SELECT recid, Sum(minutes)</text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'> FROM recepistep </text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'> GROUP  BY recid</text>
+<text class='TEXT' xml:space='preserve' x='0' y='41.4'> ORDER  BY Sum(minutes) DESC</text>
+<text class='TEXT' xml:space='preserve' x='0' y='55.2'> LIMIT 10</text>
+    </g>
+</g>
+</svg>
+

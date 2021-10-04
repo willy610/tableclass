@@ -1,0 +1,143 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='1540' height='572' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<g transform='translate(10,10)'>
+    <g transform='translate(545.60004,144.9)'>
+    <rect class='BOX' x='0' y='-48.3' width='176' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 52</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: SelectWithSub</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: supplierpart</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 12</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 6</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.343 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='180' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-176' y='-144.9' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-167.2' y='-131.09999'>id: 5</text>
+<text class='TEXT' x='-167.2' y='-117.299995'>kind: Select</text>
+<text class='TEXT' x='-167.2' y='-103.49999'>name: supplier</text>
+<text class='TEXT' x='-167.2' y='-89.7'>rows: 1</text>
+<text class='TEXT' x='-167.2' y='-75.899994'>cols: 1</text>
+<text class='TEXT' x='-167.2' y='-62.09999'>cpu : 0.001 ms</text>
+<circle class='KONTAKT' cx='-180' cy='-96.59999' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='-96.59999' r='4'></circle>
+
+<rect class='BOX' x='-352' y='-144.9' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-343.2' y='-131.09999'>id: 4</text>
+<text class='TEXT' x='-343.2' y='-117.299995'>kind: Where</text>
+<text class='TEXT' x='-343.2' y='-103.49999'>name: supplier</text>
+<text class='TEXT' x='-343.2' y='-89.7'>rows: 1</text>
+<text class='TEXT' x='-343.2' y='-75.899994'>cols: 4</text>
+<text class='TEXT' x='-343.2' y='-62.09999'>cpu : 0.011 ms</text>
+<circle class='KONTAKT' cx='-356' cy='-96.59999' r='4'></circle>
+<circle class='KONTAKT' cx='-216' cy='-96.59999' r='4'></circle>
+
+<rect class='BOX' x='-528' y='-144.9' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-519.2' y='-131.09999'>id: 3</text>
+<text class='TEXT' x='-519.2' y='-117.299995'>kind: FromCSV</text>
+<text class='TEXT' x='-519.2' y='-103.49999'>name: supplier</text>
+<text class='TEXT' x='-519.2' y='-89.7'>rows: 5</text>
+<text class='TEXT' x='-519.2' y='-75.899994'>cols: 4</text>
+<text class='TEXT' x='-519.2' y='-62.09999'>cpu : 0.056 ms</text>
+<circle class='KONTAKT' cx='-532' cy='-96.59999' r='4'></circle>
+<circle class='KONTAKT' cx='-392' cy='-96.59999' r='4'></circle>
+
+<rect class='BOX' x='-176' y='-48.299995' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-167.2' y='-34.499996'>id: 7</text>
+<text class='TEXT' x='-167.2' y='-20.699995'>kind: Select</text>
+<text class='TEXT' x='-167.2' y='-6.899994'>name: part</text>
+<text class='TEXT' x='-167.2' y='6.9000053'>rows: 1</text>
+<text class='TEXT' x='-167.2' y='20.700005'>cols: 1</text>
+<text class='TEXT' x='-167.2' y='34.500008'>cpu : 0.001 ms</text>
+<circle class='KONTAKT' cx='-180' cy='0.0000038146973' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='0.0000038146973' r='4'></circle>
+
+<rect class='BOX' x='-352' y='-48.299995' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-343.2' y='-34.499996'>id: 6</text>
+<text class='TEXT' x='-343.2' y='-20.699995'>kind: Where</text>
+<text class='TEXT' x='-343.2' y='-6.899994'>name: part</text>
+<text class='TEXT' x='-343.2' y='6.9000053'>rows: 1</text>
+<text class='TEXT' x='-343.2' y='20.700005'>cols: 5</text>
+<text class='TEXT' x='-343.2' y='34.500008'>cpu : 0.009 ms</text>
+<circle class='KONTAKT' cx='-356' cy='0.0000038146973' r='4'></circle>
+<circle class='KONTAKT' cx='-216' cy='0.0000038146973' r='4'></circle>
+
+<rect class='BOX' x='-528' y='-48.299995' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-519.2' y='-34.499996'>id: 2</text>
+<text class='TEXT' x='-519.2' y='-20.699995'>kind: FromCSV</text>
+<text class='TEXT' x='-519.2' y='-6.899994'>name: part</text>
+<text class='TEXT' x='-519.2' y='6.9000053'>rows: 6</text>
+<text class='TEXT' x='-519.2' y='20.700005'>cols: 5</text>
+<text class='TEXT' x='-519.2' y='34.500008'>cpu : 0.064 ms</text>
+<circle class='KONTAKT' cx='-532' cy='0.0000038146973' r='4'></circle>
+<circle class='KONTAKT' cx='-392' cy='0.0000038146973' r='4'></circle>
+
+<rect class='BOX' x='-211.20001' y='48.300007' width='167.2' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-202.40001' y='62.100006'>id: 1</text>
+<text class='TEXT' x='-202.40001' y='75.90001'>kind: FromCSV</text>
+<text class='TEXT' x='-202.40001' y='89.70001'>name: supplierpart</text>
+<text class='TEXT' x='-202.40001' y='103.50001'>rows: 12</text>
+<text class='TEXT' x='-202.40001' y='117.3'>cols: 3</text>
+<text class='TEXT' x='-202.40001' y='131.1'>cpu : 0.131 ms</text>
+<circle class='KONTAKT' cx='-215.20001' cy='96.600006' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='96.600006' r='4'></circle>
+<line class='K2K' x1='-216' y1='-96.59999' x2='-180' y2='-96.59999' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-392' y1='-96.59999' x2='-356' y2='-96.59999' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-40' y1='-96.59999' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-216' y1='0.0000038146973' x2='-180' y2='0.0000038146973' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-392' y1='0.0000038146973' x2='-356' y2='0.0000038146973' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-40' y1='0.0000038146973' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-40' y1='96.600006' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(10,309.8)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 52. SELECT 'Totals',
+    SNO, 
+    (SELECT SNAME FROM S WHERE S.SNO = SP.SNO) AS SNAME,
+    PNO,
+    (SELECT PNAME FROM P WHERE P.PNO = SP.PNO) AS PNAME,
+    QTY
+ FROM SP
+</text>
+<text class='TEXT' x='0' y='27.6'>id: 5. SELECT SNAME</text>
+<text class='TEXT' x='0' y='41.4'>id: 4. WHERE S.SNO =SP.SNO</text>
+<text class='TEXT' x='0' y='55.2'>id: 3. FROM csv 'supplier.csv'</text>
+<text class='TEXT' x='0' y='69'>id: 7. SELECT PNAME</text>
+<text class='TEXT' x='0' y='82.8'>id: 6. WHERE P.PNO = SP.PNO</text>
+<text class='TEXT' x='0' y='96.6'>id: 2. FROM csv 'part.csv'</text>
+<text class='TEXT' x='0' y='110.4'>id: 1. FROM csv 'supplierpart.csv'</text>
+    </g>
+</g>
+<g transform='translate(10,447.8)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>SELECT 'Totals',</text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'>    SNO, </text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'>    (SELECT SNAME FROM S WHERE S.SNO = SP.SNO) AS SNAME,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='41.4'>    PNO,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='55.2'>    (SELECT PNAME FROM P WHERE P.PNO = SP.PNO) AS PNAME,</text>
+<text class='TEXT' xml:space='preserve' x='0' y='69'>    QTY</text>
+<text class='TEXT' xml:space='preserve' x='0' y='82.8'> FROM SP</text>
+<text class='TEXT' xml:space='preserve' x='0' y='96.6'></text>
+    </g>
+</g>
+</svg>
+

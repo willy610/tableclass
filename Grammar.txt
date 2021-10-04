@@ -1,0 +1,8 @@
+Grammar for WHERECLAUSE
+WHERECLAUSE ::= where COND [ (and | or ) COND ].
+COND        ::= (LEFTSIDE COMPARATOR) | ((EXISTS | UNIQUE) setofrows).
+LEFTSIDE    ::= onerow.
+COMPARATOR  ::= EQKIND | SETKIND.
+EQKIND      ::= COMPOPER onerow.
+COMPOPER    ::= = | >= | <= | <> 
+SETKIND     ::= ( [ NOT ] in setofrows) | (COMPOPER ( ALL | ANY | SOME ) setofrows) 

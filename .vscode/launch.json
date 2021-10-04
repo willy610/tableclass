@@ -1,0 +1,62 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'binrecepie'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=binrecepie",
+                    "--package=tableclass"
+                ],
+                "filter": {
+                    "name": "binrecepie",
+                    "kind": "bin"
+                }
+            },
+            "args": ["./src/bins/binrecepie/data", "complexrecepies",">./src/bins/binrecepie/data/svgs/verify_1.svg"],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bindemo'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bindemo",
+                    "--package=tableclass"
+                ],
+                "filter": {
+                    "name": "bindemo",
+                    "kind": "bin"
+                }
+            },
+            "args": ["--svg"],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'binchrisdate'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=binchrisdate",
+                    "--package=tableclass"
+                ],
+                "filter": {
+                    "name": "binchrisdate",
+                    "kind": "bin"
+                }
+            },
+            "args": ["./src/bins/binchrisdate/databigger", "ex_explain"],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

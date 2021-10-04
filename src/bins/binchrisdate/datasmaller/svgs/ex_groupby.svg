@@ -1,0 +1,59 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='616' height='227' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<g transform='translate(10,10)'>
+    <g transform='translate(193.6,48.3)'>
+    <rect class='BOX' x='0' y='-48.3' width='220' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 2</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: GroupBy</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: test_aggr_no_group</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 3</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 6</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.058 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='224' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-176' y='-48.3' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-167.2' y='-34.5'>id: 1</text>
+<text class='TEXT' x='-167.2' y='-20.699999'>kind: FromCSV</text>
+<text class='TEXT' x='-167.2' y='-6.8999977'>name: parts</text>
+<text class='TEXT' x='-167.2' y='6.9000015'>rows: 6</text>
+<text class='TEXT' x='-167.2' y='20.7'>cols: 5</text>
+<text class='TEXT' x='-167.2' y='34.500004'>cpu : 0.158 ms</text>
+<circle class='KONTAKT' cx='-180' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='0' r='4'></circle>
+<line class='K2K' x1='-40' y1='0' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(10,116.6)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 2. SELECT MAX(WEIGHT),MIN(WEIGHT),COUNT(*),SUM(WEIGHT),AVG(WEIGHT)</text>
+<text class='TEXT' x='0' y='27.6'>id: 1. FROM csv 'part.csv'</text>
+    </g>
+</g>
+<g transform='translate(10,171.8)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>select CITY,MAX(WEIGHT),MIN(WEIGHT),COUNT(*),SUM(WEIGHT),AVG(WEIGHT)</text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'>    from P </text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'>    group by city</text>
+    </g>
+</g>
+</svg>
+

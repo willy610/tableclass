@@ -1,0 +1,144 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    id='canvas' width='1338.8' height='696.2' preserveAspectRatio='xMidYMid'>
+<defs>
+        <marker id='arrowend' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+        <marker id='arrowstart' markerWidth='10' markerHeight='7'
+        refX='+8.0' refY='2.5' orient='auto-start-reverse'>
+          <polygon points='0 0, 8 2.5, 0 5' />
+        </marker>
+            <style type='text/css'>
+
+    .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
+    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
+    .K2K {stroke-width:1.5;stroke:black;fill:none}
+    </style>
+    </defs>
+
+<g transform='translate(10,10)'>
+    <g transform='translate(1144,96.6)'>
+    <rect class='BOX' x='0' y='-48.3' width='167.2' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='8.8' y='-34.5'>id: 7</text>
+<text class='TEXT' x='8.8' y='-20.699999'>kind: OrderBy</text>
+<text class='TEXT' x='8.8' y='-6.8999977'>name: aftergroupby</text>
+<text class='TEXT' x='8.8' y='6.9000015'>rows: 2</text>
+<text class='TEXT' x='8.8' y='20.7'>cols: 4</text>
+<text class='TEXT' x='8.8' y='34.500004'>cpu : 0.007 ms</text>
+<circle class='KONTAKT' cx='-4' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='171.2' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-211.20001' y='-48.3' width='167.2' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-202.40001' y='-34.5'>id: 6</text>
+<text class='TEXT' x='-202.40001' y='-20.699999'>kind: GroupBy</text>
+<text class='TEXT' x='-202.40001' y='-6.8999977'>name: aftergroupby</text>
+<text class='TEXT' x='-202.40001' y='6.9000015'>rows: 2</text>
+<text class='TEXT' x='-202.40001' y='20.7'>cols: 4</text>
+<text class='TEXT' x='-202.40001' y='34.500004'>cpu : 0.041 ms</text>
+<circle class='KONTAKT' cx='-215.20001' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-40' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-387.2' y='-48.3' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-378.40002' y='-34.5'>id: 5</text>
+<text class='TEXT' x='-378.40002' y='-20.699999'>kind: Where</text>
+<text class='TEXT' x='-378.40002' y='-6.8999977'>name: projett</text>
+<text class='TEXT' x='-378.40002' y='6.9000015'>rows: 5</text>
+<text class='TEXT' x='-378.40002' y='20.7'>cols: 4</text>
+<text class='TEXT' x='-378.40002' y='34.500004'>cpu : 0.012 ms</text>
+<circle class='KONTAKT' cx='-391.2' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-251.20001' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-651.2' y='-48.3' width='220' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-642.4' y='-34.5'>id: 4</text>
+<text class='TEXT' x='-642.4' y='-20.699999'>kind: Select</text>
+<text class='TEXT' x='-642.4' y='-6.8999977'>name: parts_supplierpart</text>
+<text class='TEXT' x='-642.4' y='6.9000015'>rows: 6</text>
+<text class='TEXT' x='-642.4' y='20.7'>cols: 4</text>
+<text class='TEXT' x='-642.4' y='34.500004'>cpu : 0.007 ms</text>
+<circle class='KONTAKT' cx='-655.2' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-427.2' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-915.2' y='-48.3' width='220' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-906.4' y='-34.5'>id: 3</text>
+<text class='TEXT' x='-906.4' y='-20.699999'>kind: Join</text>
+<text class='TEXT' x='-906.4' y='-6.8999977'>name: parts_supplierpart</text>
+<text class='TEXT' x='-906.4' y='6.9000015'>rows: 6</text>
+<text class='TEXT' x='-906.4' y='20.7'>cols: 7</text>
+<text class='TEXT' x='-906.4' y='34.500004'>cpu : 0.033 ms</text>
+<circle class='KONTAKT' cx='-919.2' cy='0' r='4'></circle>
+<circle class='KONTAKT' cx='-691.2' cy='0' r='4'></circle>
+
+<rect class='BOX' x='-1091.2001' y='-96.6' width='132' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-1082.4' y='-82.799995'>id: 1</text>
+<text class='TEXT' x='-1082.4' y='-69'>kind: FromCSV</text>
+<text class='TEXT' x='-1082.4' y='-55.199997'>name: parts</text>
+<text class='TEXT' x='-1082.4' y='-41.399998'>rows: 3</text>
+<text class='TEXT' x='-1082.4' y='-27.599998'>cols: 4</text>
+<text class='TEXT' x='-1082.4' y='-13.799995'>cpu : 0.187 ms</text>
+<circle class='KONTAKT' cx='-1095.2001' cy='-48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-955.2' cy='-48.3' r='4'></circle>
+
+<rect class='BOX' x='-1126.4' y='0' width='167.2' height='89.7' rx='5' ry='5'></rect>
+<text class='TEXT' x='-1117.6' y='13.8'>id: 2</text>
+<text class='TEXT' x='-1117.6' y='27.6'>kind: FromCSV</text>
+<text class='TEXT' x='-1117.6' y='41.4'>name: supplierpart</text>
+<text class='TEXT' x='-1117.6' y='55.2'>rows: 12</text>
+<text class='TEXT' x='-1117.6' y='69'>cols: 3</text>
+<text class='TEXT' x='-1117.6' y='82.8'>cpu : 0.155 ms</text>
+<circle class='KONTAKT' cx='-1130.4' cy='48.3' r='4'></circle>
+<circle class='KONTAKT' cx='-955.2' cy='48.3' r='4'></circle>
+<line class='K2K' x1='-955.2' y1='-48.3' x2='-919.2' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-955.2' y1='48.3' x2='-919.2' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-40' y1='0' x2='-4' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-251.20001' y1='0' x2='-215.20001' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-427.2' y1='0' x2='-391.2' y2='0' marker-end='url(#arrowend)'/>
+<line class='K2K' x1='-691.2' y1='0' x2='-655.2' y2='0' marker-end='url(#arrowend)'/>
+    </g>
+</g>
+<g transform='translate(10,213.2)'>
+    <g transform='translate(-0,-0)'>
+    <text class='TEXT' x='0' y='13.8'>id: 7. ORDER BY PNO,pCITY</text>
+<text class='TEXT' x='0' y='27.6'>id: 6. SELECT MAX(spQTY),COUNT(*) GROUP BY PNO,pCITY</text>
+<text class='TEXT' x='0' y='41.4'>id: 5. WHERE pCITY = 'London' or pCITY ='Paris'</text>
+<text class='TEXT' x='0' y='55.2'>id: 4. SELECT parts.PNO, 
+        parts.CITY, 
+        supplierpart.SNO, 
+        supplierpart.QTY AS projett (PNO,pCITY,SNO,spQTY)</text>
+<text class='TEXT' x='0' y='69'>id: 3. ON parts.PNO = supplierpart.PNO</text>
+<text class='TEXT' x='0' y='82.8'>id: 1. FROM csv 'part.csv'</text>
+<text class='TEXT' x='0' y='96.6'>id: 2. FROM csv 'supplierpart.csv'</text>
+    </g>
+</g>
+<g transform='translate(10,337.4)'>
+    <g transform='translate(0,0)'>
+    <text class='TEXT' xml:space='preserve' x='0' y='0'>SELECT PNO</text>
+<text class='TEXT' xml:space='preserve' x='0' y='13.8'>	,pCITY</text>
+<text class='TEXT' xml:space='preserve' x='0' y='27.6'>	,MAX(spQTY)</text>
+<text class='TEXT' xml:space='preserve' x='0' y='41.4'>	,COUNT(*)</text>
+<text class='TEXT' xml:space='preserve' x='0' y='55.2'>FROM (</text>
+<text class='TEXT' xml:space='preserve' x='0' y='69'>	SELECT REDUCEDP.PNO</text>
+<text class='TEXT' xml:space='preserve' x='0' y='82.8'>		,REDUCEDP.CITY</text>
+<text class='TEXT' xml:space='preserve' x='0' y='96.6'>		,SP.SNO</text>
+<text class='TEXT' xml:space='preserve' x='0' y='110.4'>		,SP.QTY</text>
+<text class='TEXT' xml:space='preserve' x='0' y='124.200005'>	FROM (</text>
+<text class='TEXT' xml:space='preserve' x='0' y='138'>		SELECT PNO</text>
+<text class='TEXT' xml:space='preserve' x='0' y='151.8'>			,PNAME</text>
+<text class='TEXT' xml:space='preserve' x='0' y='165.6'>			,WEIGHT</text>
+<text class='TEXT' xml:space='preserve' x='0' y='179.40001'>			,CITY</text>
+<text class='TEXT' xml:space='preserve' x='0' y='193.2'>		FROM P</text>
+<text class='TEXT' xml:space='preserve' x='0' y='207'>		WHERE WEIGHT > 14</text>
+<text class='TEXT' xml:space='preserve' x='0' y='220.8'>		) AS REDUCEDP</text>
+<text class='TEXT' xml:space='preserve' x='0' y='234.6'>	JOIN SP ON REDUCEDP.PNO = SP.PNO</text>
+<text class='TEXT' xml:space='preserve' x='0' y='248.40001'>	) AS projett(PNO, pCITY, SNO, spQTY)</text>
+<text class='TEXT' xml:space='preserve' x='0' y='262.2'>WHERE pCITY = 'London'</text>
+<text class='TEXT' xml:space='preserve' x='0' y='276'>	OR pCITY = 'Paris'</text>
+<text class='TEXT' xml:space='preserve' x='0' y='289.80002'>GROUP BY PNO</text>
+<text class='TEXT' xml:space='preserve' x='0' y='303.6'>	,pCITY</text>
+<text class='TEXT' xml:space='preserve' x='0' y='317.4'>ORDER BY PNO</text>
+<text class='TEXT' xml:space='preserve' x='0' y='331.2'>	,pCITY</text>
+    </g>
+</g>
+</svg>
+
