@@ -12,8 +12,8 @@
             <style type='text/css'>
 
     .TEXT {font-size:13px;font-weight: normal;font-family:'Menlo';stroke:none;fill:black;}
-    .BOX {fill:Khaki;stroke:blue;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
-    .COVERBOX {fill:white;stroke:black;stroke-width:1.5;fill-opacity:0.1;stroke-opacity:0.4}
+    .BOX {fill:white;stroke:black;stroke-width:1}
+    .COVERBOX {fill:white;stroke:black;stroke-width:1}
     .KONTAKT {stroke-width:1.5;stroke:black;fill:none}
     .K2K {stroke-width:1.5;stroke:black;fill:none}
     </style>
